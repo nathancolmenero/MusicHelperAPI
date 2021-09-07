@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-qm9*jc#ga58_sitt_77q#tiii-(rxb2@j63m^s34wfvb1m@7d&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["http://musichelperapi-yiqn6zoyaq-ez.a.run.app"]
+
 
 
 # Application definition
