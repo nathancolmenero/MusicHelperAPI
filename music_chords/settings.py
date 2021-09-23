@@ -25,13 +25,15 @@ SECRET_KEY = 'django-insecure-qm9*jc#ga58_sitt_77q#tiii-(rxb2@j63m^s34wfvb1m@7d&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["music-api-yiqn6zoyaq-ez.a.run.app"]
+ALLOWED_HOSTS = ["music-api-yiqn6zoyaq-ez.a.run.app",
+"localhost"]
 
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'search_app',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
