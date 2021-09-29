@@ -7,3 +7,6 @@ class Chords(models.Model):
     artist = models.CharField(max_length=50)
     genre = models.CharField(max_length=50)
     rating = models.IntegerField()
+
+    def __str__():
+        return f"{self.title} ({self.artist}) ({self.genre}) ({self.rating})"
