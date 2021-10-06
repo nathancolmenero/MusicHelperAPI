@@ -10,7 +10,6 @@ class Chords(models.Model):
     genre = models.CharField(null=True, max_length=50)
     rating = models.IntegerField(
         validators=[MinValueValidator(1), MaxValueValidator(5)])
-    legend = models.BooleanField(default=False)
 
     def __str__(self):
         return f"{self.title} ({self.artist}) {self.genre} {self.rating}"
